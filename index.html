@@ -1,0 +1,67 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMsiam<iam</title>
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/332487a689.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8" ></script>
+</head>
+
+<body>
+    <input type="checkbox" id="check" >
+    <header>
+        <label for="check">
+            <i class="fas fa-bars" id="sliderBtn"></i>
+        </label>
+        <div class="leftContent">
+            <h3>syed siam chowdhury <span>(web desiginer)</span></h3>
+        </div>
+        <div class="rightContent">
+            <a href="#" class="logBtn">logout</a>
+        </div>
+    </header>
+
+    <div class="mobileNavBar">
+        <div class="navBar">
+            <img class="imagesMobile" src="image/siam.jpg" alt="My Pictuer">
+            <i class="fa fa-bars navBtn"></i>
+        </div>
+        <div class="mobileNavItem">
+            <a href="#"><i class="fas fa-desktop"></i><span>Dashbord</span></a>
+            <a href="#"><i class="fas fa-cogs"></i><span>Tools</span></a>       
+            <a href="http://www.facebool.com/syedsiamchowdhury.siam"><i class="fab fa-facebook"></i><span>Facebook</span></a>
+            <a href="#"><i class="fas fa-phone"></i></i><span>+880 1722166051</span></a>
+            <a href="#"><i class="fas fa-envelope"></i></i><span>samp@gmail.com</span></a>
+            <a href="#"><i class="fas fa-info-circle"></i><span>About Me</span></a>
+            <a href="#"><i class="fas fa-sliders-h"></i><span>Setting</span></a>
+        </div>
+    </div>
+    
+
+    <div class="slideBar">
+        <div class="profileInfo">
+            <img class="images" src="image/siam.jpg" alt="My Pictuer">
+            <h4>Siam</h4>
+        </div>
+        <a href="#"><i class="fas fa-desktop"></i><span>Dashbord</span></a>
+        <a href="#"><i class="fas fa-cogs"></i><span>Tools</span></a>       
+        <a href="http://www.facebool.com/syedsiamchowdhury.siam"><i class="fab fa-facebook"></i><span>Facebook</span></a>
+        <a href="#"><i class="fas fa-phone"></i></i><span>+880 1722166051</span></a>
+        <a href="#"><i class="fas fa-envelope"></i></i><span>samp@gmail.com</span></a>
+        <a href="#"><i class="fas fa-info-circle"></i><span>About Me</span></a>
+        <a href="#"><i class="fas fa-sliders-h"></i><span>Setting</span></a>
+    </div>
+    <div class="content">
+
+    </div>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.navBtn').click(function(){
+          $('.mobileNavItem').toggleClass('active');
+      });
+    });
+    </script>
+
+</body>
+</html>
